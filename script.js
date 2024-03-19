@@ -24,13 +24,12 @@ console.log(`a = ${a} l = ${l}`);
 let x = 100;
 let y = 50;
  
-console.log("Before swapping:" + " x = " + 
-    x + ", y = " + y);
- 
-// Code to swap 'x' and 'y'
+// console.log("Before swapping:" + " x = " + x + ", y = " + y);
+console.log(`Before Swapping: x = ${x} y = ${y}`);
+
 x = x * y; 
 y = x / y; 
 x = x / y; 
- 
-console.log("After swapping:" + " x = " + 
-    x + ", y = " + y);
+
+// console.log("After swapping:" + " x = " + x + ", y = " + y);
+console.log(`After Swapping: x = ${x} y = ${y}`);

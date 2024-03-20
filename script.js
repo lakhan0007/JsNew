@@ -37,16 +37,38 @@
 
 
 
-let leepYear;
 
-leepYear =parseInt (prompt("Enter Year"))
+// let leepYear;
 
-if(leepYear % 4 === 0) {
-    if( leepYear % 100 === 0){
+// leepYear = parseInt (prompt("Enter Year"))
+
+// if(leepYear % 4 === 0) {
+//     if( leepYear % 100 === 0){
+//         if(leepYear % 400 === 0){
+//             document.write( "this is leep year");
+//         }
+//     }
+// }else{
+//     document.write("this is not leep year");
+// }   
+
+
+
+
+let leepYear ;
+
+leepYear = parseInt(prompt('Please enter year'))
+
+if(leepYear % 4 === 0){
+    if(leepYear % 100 === 0){
         if(leepYear % 400 === 0){
-            document.write( "this is leep year");
+            document.write('This is leep year ')
+        }else{
+            document.write('This is not leep year')
         }
+    }else{
+        document.write('This is a leep Year')
     }
 }else{
-    document.write("this is not leep year");
+    document.write('This is not leep year')
 }

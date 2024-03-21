@@ -51,7 +51,7 @@
 
 
 
-let table = parseInt(prompt('Enter Table value'))
+let table = parseInt(prompt('Enter Table Number'))
 
 for(let value = 1; value <= 10; value++){
   document.write(` <br/> The table of ${table} * ${value} = ${value * table} <br/> `)

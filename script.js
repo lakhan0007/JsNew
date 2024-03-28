@@ -95,12 +95,74 @@
 
 
 
-let myName = 'lakhan Singh Rathorer'
+// let myName = 'lakhan Singh Rathorer'
 
-function himanshi() {
-    let myAge = 28 
-    // console.log(myName , myAge);
+// function himanshi() {
+//     let myAge = 28 
+//     // console.log(myName , myAge);
+// }
+
+// himanshi()
+// console.log( myName );
+
+
+
+
+// function sum(a){
+//   if(a % 2 === 0){
+//     console.log(`${a} This is even number`);
+//   }else{
+//     console.log(`${a} This is odd number`);
+//   }
+// }
+// sum(12);
+
+
+
+// function string(a){
+//         a = 'This is my new web site';
+//         // b = a.slice(0,1)
+//         // b = a.substring(0 , 1)
+//         // b = a.charAt(0)
+//         console.log(b);
+// }
+
+// string()
+
+
+// function ysh(arr, target){
+//     let newarray = arr.indexOf(target)
+//     let newarray2 = arr.lastIndexOf(target)
+//     console.log(newarray , newarray2 );
+
+// }
+
+// ysh([0,2,4,6,8,6,10], 6)
+
+
+
+// let Answer = 0;
+
+// function sum(...a){
+//     for( let i=0; i<=a.length-1; i++)
+//     Answer += a[i];
+
+//     return Answer;
+// }
+
+// let x = sum(1,2,3,4,5,6)
+// console.log(x);
+
+
+
+let Answer = 0;
+
+function sum(b,c,...a){
+    for( let i=0; i<=a.length-1; i++)
+    Answer += a[i];
+
+    return Answer + b + c;
 }
 
-himanshi()
-console.log( myName );
+let x = sum(1,2,3,4,5,6)
+console.log(x);
